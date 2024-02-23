@@ -1,0 +1,271 @@
+c:\users\muluh\documents\visual studio 2015\Projects\TechnoSchool\TechnoSchool\bin\Debug\TechnoSchool.exe.config
+c:\users\muluh\documents\visual studio 2015\Projects\TechnoSchool\TechnoSchool\bin\Debug\TechnoSchool.exe
+c:\users\muluh\documents\visual studio 2015\Projects\TechnoSchool\TechnoSchool\bin\Debug\TechnoSchool.pdb
+c:\users\muluh\documents\visual studio 2015\Projects\TechnoSchool\TechnoSchool\obj\Debug\TechnoSchool.Index.resources
+c:\users\muluh\documents\visual studio 2015\Projects\TechnoSchool\TechnoSchool\obj\Debug\TechnoSchool.Properties.Resources.resources
+c:\users\muluh\documents\visual studio 2015\Projects\TechnoSchool\TechnoSchool\obj\Debug\TechnoSchool.csproj.GenerateResource.Cache
+c:\users\muluh\documents\visual studio 2015\Projects\TechnoSchool\TechnoSchool\obj\Debug\TechnoSchool.exe
+c:\users\muluh\documents\visual studio 2015\Projects\TechnoSchool\TechnoSchool\obj\Debug\TechnoSchool.pdb
+C:\Users\MULUH\Documents\Visual Studio 2015\Projects\TechnoSchool\TechnoSchool\bin\Debug\Google.ProtocolBuffers.dll
+C:\Users\MULUH\Documents\Visual Studio 2015\Projects\TechnoSchool\TechnoSchool\bin\Debug\MySql.Data.dll
+C:\Users\MULUH\Documents\Visual Studio 2015\Projects\TechnoSchool\TechnoSchool\bin\Debug\MySql.Data.xml
+C:\Users\MULUH\Documents\Visual Studio 2015\Projects\TechnoSchool\TechnoSchool\obj\Debug\TechnoSchool.NEW_etablissements.resources
+C:\Users\MULUH\Documents\Visual Studio 2015\Projects\TechnoSchool\TechnoSchool\obj\Debug\TechnoSchool.AddSchool.resources
+C:\Users\MULUH\Documents\Visual Studio 2015\Projects\TechnoSchool\TechnoSchool\obj\Debug\TechnoSchool.detailSchool.resources
+C:\Users\MULUH\Documents\Visual Studio 2015\Projects\TechnoSchool\TechnoSchool\obj\Debug\TechnoSchool.EditSchool.resources
+C:\Users\MULUH\Documents\Visual Studio 2015\Projects\TechnoSchool\TechnoSchool\obj\Debug\TechnoSchool.NEW_USERS.resources
+C:\Users\MULUH\Documents\Visual Studio 2015\Projects\TechnoSchool\TechnoSchool\obj\Debug\TechnoSchool.Addemployer.resources
+C:\Users\MULUH\Documents\Visual Studio 2015\Projects\TechnoSchool\TechnoSchool\obj\Debug\TechnoSchool.detailEmployer.resources
+C:\Users\MULUH\Documents\Visual Studio 2015\Projects\TechnoSchool\TechnoSchool\obj\Debug\TechnoSchool.EditEmployer.resources
+C:\Users\MULUH\Documents\Visual Studio 2015\Projects\TechnoSchool\TechnoSchool\obj\Debug\TechnoSchool.NEW_FONCTION.resources
+C:\Users\MULUH\Documents\Visual Studio 2015\Projects\TechnoSchool\TechnoSchool\obj\Debug\TechnoSchool.AddFonction.resources
+C:\Users\MULUH\Documents\Visual Studio 2015\Projects\TechnoSchool\TechnoSchool\obj\Debug\TechnoSchool.detailsPoste.resources
+C:\Users\MULUH\Documents\Visual Studio 2015\Projects\TechnoSchool\TechnoSchool\obj\Debug\TechnoSchool.EditPoste.resources
+C:\Users\MULUH\Documents\Visual Studio 2015\Projects\TechnoSchool\TechnoSchool\obj\Debug\TechnoSchool.Addsession.resources
+C:\Users\MULUH\Documents\Visual Studio 2015\Projects\TechnoSchool\TechnoSchool\obj\Debug\TechnoSchool.AddsessionForm.resources
+C:\Users\MULUH\Documents\Visual Studio 2015\Projects\TechnoSchool\TechnoSchool\obj\Debug\TechnoSchool.EditSession.resources
+C:\Users\MULUH\Documents\Visual Studio 2015\Projects\TechnoSchool\TechnoSchool\obj\Debug\TechnoSchool.detailsSession.resources
+C:\Users\MULUH\Documents\Visual Studio 2015\Projects\TechnoSchool\TechnoSchool\obj\Debug\TechnoSchool.New_SECTION.resources
+C:\Users\MULUH\Documents\Visual Studio 2015\Projects\TechnoSchool\TechnoSchool\obj\Debug\TechnoSchool.AddSection.resources
+C:\Users\MULUH\Documents\Visual Studio 2015\Projects\TechnoSchool\TechnoSchool\obj\Debug\TechnoSchool.EditSection.resources
+C:\Users\MULUH\Documents\Visual Studio 2015\Projects\TechnoSchool\TechnoSchool\obj\Debug\TechnoSchool.NEW_CLASSE.resources
+C:\Users\MULUH\Documents\Visual Studio 2015\Projects\TechnoSchool\TechnoSchool\obj\Debug\TechnoSchool.AddClasse.resources
+C:\Users\MULUH\Documents\Visual Studio 2015\Projects\TechnoSchool\TechnoSchool\obj\Debug\TechnoSchool.Editclasse.resources
+C:\Users\MULUH\Documents\Visual Studio 2015\Projects\TechnoSchool\TechnoSchool\obj\Debug\TechnoSchool.detailsClasse.resources
+C:\Users\MULUH\Documents\Visual Studio 2015\Projects\TechnoSchool\TechnoSchool\obj\Debug\TechnoSchool.NEW_ELEVE.resources
+C:\Users\MULUH\Documents\Visual Studio 2015\Projects\TechnoSchool\TechnoSchool\obj\Debug\TechnoSchool.AddEleve.resources
+C:\Users\MULUH\Documents\Visual Studio 2015\Projects\TechnoSchool\TechnoSchool\obj\Debug\TechnoSchool.detailsEleve.resources
+C:\Users\MULUH\Documents\Visual Studio 2015\Projects\TechnoSchool\TechnoSchool\obj\Debug\TechnoSchool.EditEleve.resources
+C:\Users\MULUH\Documents\Visual Studio 2015\Projects\TechnoSchool\TechnoSchool\obj\Debug\TechnoSchool.AddInscription.resources
+C:\Users\MULUH\Documents\Visual Studio 2015\Projects\TechnoSchool\TechnoSchool\obj\Debug\TechnoSchool.NEW_INSCRIPTION.resources
+C:\Users\MULUH\Documents\Visual Studio 2015\Projects\TechnoSchool\TechnoSchool\obj\Debug\TechnoSchool.IMPRESSION_inscription.resources
+C:\Users\MULUH\Documents\Visual Studio 2015\Projects\TechnoSchool\TechnoSchool\obj\Debug\TechnoSchool.Connexion.resources
+C:\Users\MULUH\Documents\Visual Studio 2015\Projects\TechnoSchool\TechnoSchool\obj\Debug\TechnoSchool.EditInscription.resources
+C:\Users\MULUH\Documents\Visual Studio 2015\Projects\TechnoSchool\TechnoSchool\obj\Debug\TechnoSchool.deletenscription.resources
+C:\Users\MULUH\Documents\Visual Studio 2015\Projects\TechnoSchool\TechnoSchool\obj\Debug\TechnoSchool.NEW_SCOLARITE.resources
+C:\Users\MULUH\Documents\Visual Studio 2015\Projects\TechnoSchool\TechnoSchool\obj\Debug\TechnoSchool.Addscolarite.resources
+C:\Users\MULUH\Documents\Visual Studio 2015\Projects\TechnoSchool\TechnoSchool\obj\Debug\TechnoSchool.RECU_SCOLARITE.resources
+C:\Users\MULUH\Documents\Visual Studio 2015\Projects\TechnoSchool\TechnoSchool\obj\Debug\TechnoSchool.Editscolarite.resources
+C:\Users\MULUH\Documents\Visual Studio 2015\Projects\TechnoSchool\TechnoSchool\obj\Debug\TechnoSchool.deletescolarite.resources
+C:\Users\MULUH\Documents\Visual Studio 2015\Projects\TechnoSchool\TechnoSchool\obj\Debug\TechnoSchool.formodifInscription.resources
+C:\Users\MULUH\Documents\Visual Studio 2015\Projects\TechnoSchool\TechnoSchool\obj\Debug\TechnoSchool.formodifscolarite.resources
+C:\Users\MULUH\Documents\Visual Studio 2015\Projects\TechnoSchool\TechnoSchool\obj\Debug\TechnoSchool.ListversementrPourecu.resources
+C:\Users\MULUH\Documents\Visual Studio 2015\Projects\TechnoSchool\TechnoSchool\obj\Debug\TechnoSchool.RecuInscriptionStock.resources
+C:\Users\MULUH\Documents\Visual Studio 2015\Projects\TechnoSchool\TechnoSchool\obj\Debug\TechnoSchool.Listeversementrecuscolarite.resources
+C:\Users\MULUH\Documents\Visual Studio 2015\Projects\TechnoSchool\TechnoSchool\obj\Debug\TechnoSchool.RecuscolariteStock.resources
+C:\Users\MULUH\Documents\Visual Studio 2015\Projects\TechnoSchool\TechnoSchool\obj\Debug\TechnoSchool.RapportListEleveInscript.resources
+C:\Users\MULUH\Documents\Visual Studio 2015\Projects\TechnoSchool\TechnoSchool\obj\Debug\TechnoSchool.configServer.resources
+C:\Users\MULUH\Documents\Visual Studio 2015\Projects\TechnoSchool\TechnoSchool\obj\Debug\TechnoSchool.LicenceGestion.resources
+C:\Users\MULUH\Documents\Visual Studio 2015\Projects\TechnoSchool\TechnoSchool\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+C:\Users\MULUH\Documents\Visual Studio 2015\Projects\TechnoSchool\TechnoSchool\bin\Debug\CrystalDecisions.ReportSource.dll
+C:\Users\MULUH\Documents\Visual Studio 2015\Projects\TechnoSchool\TechnoSchool\bin\Debug\CrystalDecisions.Shared.dll
+C:\Users\MULUH\Documents\Visual Studio 2015\Projects\TechnoSchool\TechnoSchool\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+C:\Users\MULUH\Documents\Visual Studio 2015\Projects\TechnoSchool\TechnoSchool\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+C:\Users\MULUH\Documents\Visual Studio 2015\Projects\TechnoSchool\TechnoSchool\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+C:\Users\MULUH\Documents\Visual Studio 2015\Projects\TechnoSchool\TechnoSchool\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+C:\Users\MULUH\Documents\Visual Studio 2015\Projects\TechnoSchool\TechnoSchool\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+C:\Users\MULUH\Documents\Visual Studio 2015\Projects\TechnoSchool\TechnoSchool\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\Users\MULUH\Documents\Visual Studio 2015\Projects\TechnoSchool\TechnoSchool\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+C:\Users\MULUH\Documents\Visual Studio 2015\Projects\TechnoSchool\TechnoSchool\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+C:\Users\MULUH\Documents\Visual Studio 2015\Projects\TechnoSchool\TechnoSchool\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+C:\Users\MULUH\Documents\Visual Studio 2015\Projects\TechnoSchool\TechnoSchool\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+C:\Users\MULUH\Documents\Visual Studio 2015\Projects\TechnoSchool\TechnoSchool\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+C:\Users\MULUH\Documents\Visual Studio 2015\Projects\TechnoSchool\TechnoSchool\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+C:\Users\MULUH\Documents\Visual Studio 2015\Projects\TechnoSchool\TechnoSchool\bin\Debug\stdole.dll
+C:\Users\MULUH\Documents\Visual Studio 2015\Projects\TechnoSchool\TechnoSchool\bin\Debug\CrystalDecisions.Windows.Forms.dll
+C:\Users\MULUH\Documents\Visual Studio 2015\Projects\TechnoSchool\TechnoSchool\bin\Debug\FlashControlV71.dll
+C:\Users\MULUH\Documents\Visual Studio 2015\Projects\TechnoSchool\TechnoSchool\bin\Debug\ShockwaveFlashObjects.dll
+D:\TechnoSchool en cours de travail\TechnoSchool\TechnoSchool\bin\Debug\TechnoSchool.exe.config
+D:\TechnoSchool en cours de travail\TechnoSchool\TechnoSchool\obj\Debug\TechnoSchool.exe
+D:\TechnoSchool en cours de travail\TechnoSchool\TechnoSchool\obj\Debug\TechnoSchool.pdb
+D:\TechnoSchool en cours de travail\TechnoSchool\TechnoSchool\bin\Debug\TechnoSchool.exe
+D:\TechnoSchool en cours de travail\TechnoSchool\TechnoSchool\bin\Debug\TechnoSchool.pdb
+D:\TechnoSchool en cours de travail\TechnoSchool\TechnoSchool\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+D:\TechnoSchool en cours de travail\TechnoSchool\TechnoSchool\bin\Debug\CrystalDecisions.ReportSource.dll
+D:\TechnoSchool en cours de travail\TechnoSchool\TechnoSchool\bin\Debug\CrystalDecisions.Shared.dll
+D:\TechnoSchool en cours de travail\TechnoSchool\TechnoSchool\bin\Debug\CrystalDecisions.Windows.Forms.dll
+D:\TechnoSchool en cours de travail\TechnoSchool\TechnoSchool\bin\Debug\FlashControlV71.dll
+D:\TechnoSchool en cours de travail\TechnoSchool\TechnoSchool\bin\Debug\Google.ProtocolBuffers.dll
+D:\TechnoSchool en cours de travail\TechnoSchool\TechnoSchool\bin\Debug\MySql.Data.dll
+D:\TechnoSchool en cours de travail\TechnoSchool\TechnoSchool\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+D:\TechnoSchool en cours de travail\TechnoSchool\TechnoSchool\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+D:\TechnoSchool en cours de travail\TechnoSchool\TechnoSchool\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+D:\TechnoSchool en cours de travail\TechnoSchool\TechnoSchool\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+D:\TechnoSchool en cours de travail\TechnoSchool\TechnoSchool\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+D:\TechnoSchool en cours de travail\TechnoSchool\TechnoSchool\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+D:\TechnoSchool en cours de travail\TechnoSchool\TechnoSchool\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+D:\TechnoSchool en cours de travail\TechnoSchool\TechnoSchool\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+D:\TechnoSchool en cours de travail\TechnoSchool\TechnoSchool\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+D:\TechnoSchool en cours de travail\TechnoSchool\TechnoSchool\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+D:\TechnoSchool en cours de travail\TechnoSchool\TechnoSchool\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+D:\TechnoSchool en cours de travail\TechnoSchool\TechnoSchool\bin\Debug\ShockwaveFlashObjects.dll
+D:\TechnoSchool en cours de travail\TechnoSchool\TechnoSchool\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+D:\TechnoSchool en cours de travail\TechnoSchool\TechnoSchool\bin\Debug\stdole.dll
+D:\TechnoSchool en cours de travail\TechnoSchool\TechnoSchool\bin\Debug\MySql.Data.xml
+D:\TechnoSchool en cours de travail\TechnoSchool\TechnoSchool\obj\Debug\TechnoSchool.AddClasse.resources
+D:\TechnoSchool en cours de travail\TechnoSchool\TechnoSchool\obj\Debug\TechnoSchool.AddEleve.resources
+D:\TechnoSchool en cours de travail\TechnoSchool\TechnoSchool\obj\Debug\TechnoSchool.Addemployer.resources
+D:\TechnoSchool en cours de travail\TechnoSchool\TechnoSchool\obj\Debug\TechnoSchool.AddFonction.resources
+D:\TechnoSchool en cours de travail\TechnoSchool\TechnoSchool\obj\Debug\TechnoSchool.AddSchool.resources
+D:\TechnoSchool en cours de travail\TechnoSchool\TechnoSchool\obj\Debug\TechnoSchool.Addscolarite.resources
+D:\TechnoSchool en cours de travail\TechnoSchool\TechnoSchool\obj\Debug\TechnoSchool.AddSection.resources
+D:\TechnoSchool en cours de travail\TechnoSchool\TechnoSchool\obj\Debug\TechnoSchool.Addsession.resources
+D:\TechnoSchool en cours de travail\TechnoSchool\TechnoSchool\obj\Debug\TechnoSchool.AddsessionForm.resources
+D:\TechnoSchool en cours de travail\TechnoSchool\TechnoSchool\obj\Debug\TechnoSchool.configServer.resources
+D:\TechnoSchool en cours de travail\TechnoSchool\TechnoSchool\obj\Debug\TechnoSchool.Connexion.resources
+D:\TechnoSchool en cours de travail\TechnoSchool\TechnoSchool\obj\Debug\TechnoSchool.deletenscription.resources
+D:\TechnoSchool en cours de travail\TechnoSchool\TechnoSchool\obj\Debug\TechnoSchool.deletescolarite.resources
+D:\TechnoSchool en cours de travail\TechnoSchool\TechnoSchool\obj\Debug\TechnoSchool.detailEmployer.resources
+D:\TechnoSchool en cours de travail\TechnoSchool\TechnoSchool\obj\Debug\TechnoSchool.detailSchool.resources
+D:\TechnoSchool en cours de travail\TechnoSchool\TechnoSchool\obj\Debug\TechnoSchool.detailsClasse.resources
+D:\TechnoSchool en cours de travail\TechnoSchool\TechnoSchool\obj\Debug\TechnoSchool.detailsEleve.resources
+D:\TechnoSchool en cours de travail\TechnoSchool\TechnoSchool\obj\Debug\TechnoSchool.detailsPoste.resources
+D:\TechnoSchool en cours de travail\TechnoSchool\TechnoSchool\obj\Debug\TechnoSchool.detailsSession.resources
+D:\TechnoSchool en cours de travail\TechnoSchool\TechnoSchool\obj\Debug\TechnoSchool.Editclasse.resources
+D:\TechnoSchool en cours de travail\TechnoSchool\TechnoSchool\obj\Debug\TechnoSchool.EditEleve.resources
+D:\TechnoSchool en cours de travail\TechnoSchool\TechnoSchool\obj\Debug\TechnoSchool.EditEmployer.resources
+D:\TechnoSchool en cours de travail\TechnoSchool\TechnoSchool\obj\Debug\TechnoSchool.EditInscription.resources
+D:\TechnoSchool en cours de travail\TechnoSchool\TechnoSchool\obj\Debug\TechnoSchool.EditPoste.resources
+D:\TechnoSchool en cours de travail\TechnoSchool\TechnoSchool\obj\Debug\TechnoSchool.EditSchool.resources
+D:\TechnoSchool en cours de travail\TechnoSchool\TechnoSchool\obj\Debug\TechnoSchool.Editscolarite.resources
+D:\TechnoSchool en cours de travail\TechnoSchool\TechnoSchool\obj\Debug\TechnoSchool.EditSection.resources
+D:\TechnoSchool en cours de travail\TechnoSchool\TechnoSchool\obj\Debug\TechnoSchool.EditSession.resources
+D:\TechnoSchool en cours de travail\TechnoSchool\TechnoSchool\obj\Debug\TechnoSchool.Index.resources
+D:\TechnoSchool en cours de travail\TechnoSchool\TechnoSchool\obj\Debug\TechnoSchool.formodifInscription.resources
+D:\TechnoSchool en cours de travail\TechnoSchool\TechnoSchool\obj\Debug\TechnoSchool.formodifscolarite.resources
+D:\TechnoSchool en cours de travail\TechnoSchool\TechnoSchool\obj\Debug\TechnoSchool.IMPRESSION_inscription.resources
+D:\TechnoSchool en cours de travail\TechnoSchool\TechnoSchool\obj\Debug\TechnoSchool.LicenceGestion.resources
+D:\TechnoSchool en cours de travail\TechnoSchool\TechnoSchool\obj\Debug\TechnoSchool.ListversementrPourecu.resources
+D:\TechnoSchool en cours de travail\TechnoSchool\TechnoSchool\obj\Debug\TechnoSchool.NEW_CLASSE.resources
+D:\TechnoSchool en cours de travail\TechnoSchool\TechnoSchool\obj\Debug\TechnoSchool.NEW_ELEVE.resources
+D:\TechnoSchool en cours de travail\TechnoSchool\TechnoSchool\obj\Debug\TechnoSchool.NEW_etablissements.resources
+D:\TechnoSchool en cours de travail\TechnoSchool\TechnoSchool\obj\Debug\TechnoSchool.NEW_FONCTION.resources
+D:\TechnoSchool en cours de travail\TechnoSchool\TechnoSchool\obj\Debug\TechnoSchool.AddInscription.resources
+D:\TechnoSchool en cours de travail\TechnoSchool\TechnoSchool\obj\Debug\TechnoSchool.NEW_INSCRIPTION.resources
+D:\TechnoSchool en cours de travail\TechnoSchool\TechnoSchool\obj\Debug\TechnoSchool.NEW_SCOLARITE.resources
+D:\TechnoSchool en cours de travail\TechnoSchool\TechnoSchool\obj\Debug\TechnoSchool.New_SECTION.resources
+D:\TechnoSchool en cours de travail\TechnoSchool\TechnoSchool\obj\Debug\TechnoSchool.NEW_USERS.resources
+D:\TechnoSchool en cours de travail\TechnoSchool\TechnoSchool\obj\Debug\TechnoSchool.Properties.Resources.resources
+D:\TechnoSchool en cours de travail\TechnoSchool\TechnoSchool\obj\Debug\TechnoSchool.RapportListEleveInscript.resources
+D:\TechnoSchool en cours de travail\TechnoSchool\TechnoSchool\obj\Debug\TechnoSchool.RecuInscriptionStock.resources
+D:\TechnoSchool en cours de travail\TechnoSchool\TechnoSchool\obj\Debug\TechnoSchool.Listeversementrecuscolarite.resources
+D:\TechnoSchool en cours de travail\TechnoSchool\TechnoSchool\obj\Debug\TechnoSchool.RecuscolariteStock.resources
+D:\TechnoSchool en cours de travail\TechnoSchool\TechnoSchool\obj\Debug\TechnoSchool.RECU_SCOLARITE.resources
+D:\TechnoSchool en cours de travail\TechnoSchool\TechnoSchool\obj\Debug\TechnoSchool.csproj.GenerateResource.Cache
+C:\Users\MULUH\Documents\Visual Studio 2015\Projects\TechnoSchool\TechnoSchool\obj\Debug\TechnoSchool.RapportinscriptSection.resources
+C:\Users\MULUH\Documents\Visual Studio 2015\Projects\TechnoSchool\TechnoSchool\obj\Debug\TechnoSchool.RapportListClass.resources
+C:\Users\MULUH\Documents\Visual Studio 2015\Projects\TechnoSchool\TechnoSchool\obj\Debug\TechnoSchool.RapportFicheRenvoi.resources
+C:\Users\MULUH\Documents\Visual Studio 2015\Projects\TechnoSchool\TechnoSchool\obj\Debug\TechnoSchool.RapportRenvoiScolarite.resources
+C:\Users\MULUH\Documents\Visual Studio 2015\Projects\TechnoSchool\TechnoSchool\obj\Debug\TechnoSchool.RapportVersementParClasseInscription.resources
+C:\Users\MULUH\Documents\Visual Studio 2015\Projects\TechnoSchool\TechnoSchool\obj\Debug\TechnoSchool.RapportVersementParClaaseScolarite.resources
+C:\Users\MULUH\Documents\Visual Studio 2015\Projects\TechnoSchool\TechnoSchool\obj\Debug\TechnoSchool.RapportListingCaisse.resources
+C:\Users\MULUH\Documents\Visual Studio 2015\Projects\TechnoSchool\TechnoSchool\obj\Debug\TechnoSchool.RapportListSection.resources
+C:\Users\MULUH\Documents\Visual Studio 2015\Projects\TechnoSchool\TechnoSchool\obj\Debug\TechnoSchool.RapportListClasse.resources
+C:\Users\MULUH\Documents\Visual Studio 2015\Projects\TechnoSchool\TechnoSchool\obj\Debug\TechnoSchool.RapportListEleve.resources
+C:\Users\MULUH\Documents\Visual Studio 2015\Projects\TechnoSchool\TechnoSchool\obj\Debug\TechnoSchool.ChoixElevePrDossier.resources
+C:\Users\MULUH\Documents\Visual Studio 2015\Projects\TechnoSchool\TechnoSchool\obj\Debug\TechnoSchool.RapportDossierElevecs.resources
+C:\Users\MULUH\Documents\Visual Studio 2015\Projects\TechnoSchool\TechnoSchool\obj\Debug\TechnoSchool.RapportCarteScolaire.resources
+C:\Users\MULUH\Documents\Visual Studio 2015\Projects\TechnoSchool\TechnoSchool\obj\Debug\TechnoSchool.RapportScolariteETInscriptionParClasse.resources
+C:\Users\MULUH\Documents\Visual Studio 2015\Projects\TechnoSchool\TechnoSchool\obj\Debug\TechnoSchool.BourseETPrime.resources
+C:\Users\MULUH\Documents\Visual Studio 2015\Projects\TechnoSchool\TechnoSchool\obj\Debug\TechnoSchool.NEW_BOURSEPRIME.resources
+C:\Users\MULUH\Documents\Visual Studio 2015\Projects\TechnoSchool\TechnoSchool\obj\Debug\TechnoSchool.csprojResolveAssemblyReference.cache
+C:\Users\MULUH\Documents\Visual Studio 2015\Projects\TechnoSchool\TechnoSchool\obj\Debug\TechnoSchool.Rapport_BourseETPrimes.resources
+C:\Users\MULUH\Documents\Visual Studio 2015\Projects\TechnoSchool\TechnoSchool\obj\Debug\TechnoSchool.EditBoursePrime.resources
+C:\Users\MULUH\Documents\Visual Studio 2015\Projects\TechnoSchool\TechnoSchool\obj\Debug\TechnoSchool.detailBourse.resources
+C:\Users\MULUH\Documents\Visual Studio 2015\Projects\TechnoSchool(Pascal)\TechnoSchool\TechnoSchool\bin\Debug\TechnoSchool.exe.config
+C:\Users\MULUH\Documents\Visual Studio 2015\Projects\TechnoSchool(Pascal)\TechnoSchool\TechnoSchool\obj\Debug\TechnoSchool.exe
+C:\Users\MULUH\Documents\Visual Studio 2015\Projects\TechnoSchool(Pascal)\TechnoSchool\TechnoSchool\obj\Debug\TechnoSchool.pdb
+C:\Users\MULUH\Documents\Visual Studio 2015\Projects\TechnoSchool(Pascal)\TechnoSchool\TechnoSchool\bin\Debug\TechnoSchool.exe
+C:\Users\MULUH\Documents\Visual Studio 2015\Projects\TechnoSchool(Pascal)\TechnoSchool\TechnoSchool\bin\Debug\TechnoSchool.pdb
+C:\Users\MULUH\Documents\Visual Studio 2015\Projects\TechnoSchool(Pascal)\TechnoSchool\TechnoSchool\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+C:\Users\MULUH\Documents\Visual Studio 2015\Projects\TechnoSchool(Pascal)\TechnoSchool\TechnoSchool\bin\Debug\CrystalDecisions.ReportSource.dll
+C:\Users\MULUH\Documents\Visual Studio 2015\Projects\TechnoSchool(Pascal)\TechnoSchool\TechnoSchool\bin\Debug\CrystalDecisions.Shared.dll
+C:\Users\MULUH\Documents\Visual Studio 2015\Projects\TechnoSchool(Pascal)\TechnoSchool\TechnoSchool\bin\Debug\CrystalDecisions.Windows.Forms.dll
+C:\Users\MULUH\Documents\Visual Studio 2015\Projects\TechnoSchool(Pascal)\TechnoSchool\TechnoSchool\bin\Debug\FlashControlV71.dll
+C:\Users\MULUH\Documents\Visual Studio 2015\Projects\TechnoSchool(Pascal)\TechnoSchool\TechnoSchool\bin\Debug\Google.ProtocolBuffers.dll
+C:\Users\MULUH\Documents\Visual Studio 2015\Projects\TechnoSchool(Pascal)\TechnoSchool\TechnoSchool\bin\Debug\MySql.Data.dll
+C:\Users\MULUH\Documents\Visual Studio 2015\Projects\TechnoSchool(Pascal)\TechnoSchool\TechnoSchool\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+C:\Users\MULUH\Documents\Visual Studio 2015\Projects\TechnoSchool(Pascal)\TechnoSchool\TechnoSchool\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+C:\Users\MULUH\Documents\Visual Studio 2015\Projects\TechnoSchool(Pascal)\TechnoSchool\TechnoSchool\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+C:\Users\MULUH\Documents\Visual Studio 2015\Projects\TechnoSchool(Pascal)\TechnoSchool\TechnoSchool\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+C:\Users\MULUH\Documents\Visual Studio 2015\Projects\TechnoSchool(Pascal)\TechnoSchool\TechnoSchool\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+C:\Users\MULUH\Documents\Visual Studio 2015\Projects\TechnoSchool(Pascal)\TechnoSchool\TechnoSchool\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\Users\MULUH\Documents\Visual Studio 2015\Projects\TechnoSchool(Pascal)\TechnoSchool\TechnoSchool\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+C:\Users\MULUH\Documents\Visual Studio 2015\Projects\TechnoSchool(Pascal)\TechnoSchool\TechnoSchool\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+C:\Users\MULUH\Documents\Visual Studio 2015\Projects\TechnoSchool(Pascal)\TechnoSchool\TechnoSchool\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+C:\Users\MULUH\Documents\Visual Studio 2015\Projects\TechnoSchool(Pascal)\TechnoSchool\TechnoSchool\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+C:\Users\MULUH\Documents\Visual Studio 2015\Projects\TechnoSchool(Pascal)\TechnoSchool\TechnoSchool\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+C:\Users\MULUH\Documents\Visual Studio 2015\Projects\TechnoSchool(Pascal)\TechnoSchool\TechnoSchool\bin\Debug\ShockwaveFlashObjects.dll
+C:\Users\MULUH\Documents\Visual Studio 2015\Projects\TechnoSchool(Pascal)\TechnoSchool\TechnoSchool\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+C:\Users\MULUH\Documents\Visual Studio 2015\Projects\TechnoSchool(Pascal)\TechnoSchool\TechnoSchool\bin\Debug\stdole.dll
+C:\Users\MULUH\Documents\Visual Studio 2015\Projects\TechnoSchool(Pascal)\TechnoSchool\TechnoSchool\bin\Debug\MySql.Data.xml
+C:\Users\MULUH\Documents\Visual Studio 2015\Projects\TechnoSchool(Pascal)\TechnoSchool\TechnoSchool\obj\Debug\TechnoSchool.AddClasse.resources
+C:\Users\MULUH\Documents\Visual Studio 2015\Projects\TechnoSchool(Pascal)\TechnoSchool\TechnoSchool\obj\Debug\TechnoSchool.AddEleve.resources
+C:\Users\MULUH\Documents\Visual Studio 2015\Projects\TechnoSchool(Pascal)\TechnoSchool\TechnoSchool\obj\Debug\TechnoSchool.Addemployer.resources
+C:\Users\MULUH\Documents\Visual Studio 2015\Projects\TechnoSchool(Pascal)\TechnoSchool\TechnoSchool\obj\Debug\TechnoSchool.AddFonction.resources
+C:\Users\MULUH\Documents\Visual Studio 2015\Projects\TechnoSchool(Pascal)\TechnoSchool\TechnoSchool\obj\Debug\TechnoSchool.AddSchool.resources
+C:\Users\MULUH\Documents\Visual Studio 2015\Projects\TechnoSchool(Pascal)\TechnoSchool\TechnoSchool\obj\Debug\TechnoSchool.Addscolarite.resources
+C:\Users\MULUH\Documents\Visual Studio 2015\Projects\TechnoSchool(Pascal)\TechnoSchool\TechnoSchool\obj\Debug\TechnoSchool.AddSection.resources
+C:\Users\MULUH\Documents\Visual Studio 2015\Projects\TechnoSchool(Pascal)\TechnoSchool\TechnoSchool\obj\Debug\TechnoSchool.Addsession.resources
+C:\Users\MULUH\Documents\Visual Studio 2015\Projects\TechnoSchool(Pascal)\TechnoSchool\TechnoSchool\obj\Debug\TechnoSchool.AddsessionForm.resources
+C:\Users\MULUH\Documents\Visual Studio 2015\Projects\TechnoSchool(Pascal)\TechnoSchool\TechnoSchool\obj\Debug\TechnoSchool.BourseETPrime.resources
+C:\Users\MULUH\Documents\Visual Studio 2015\Projects\TechnoSchool(Pascal)\TechnoSchool\TechnoSchool\obj\Debug\TechnoSchool.ChoixElevePrDossier.resources
+C:\Users\MULUH\Documents\Visual Studio 2015\Projects\TechnoSchool(Pascal)\TechnoSchool\TechnoSchool\obj\Debug\TechnoSchool.configServer.resources
+C:\Users\MULUH\Documents\Visual Studio 2015\Projects\TechnoSchool(Pascal)\TechnoSchool\TechnoSchool\obj\Debug\TechnoSchool.Connexion.resources
+C:\Users\MULUH\Documents\Visual Studio 2015\Projects\TechnoSchool(Pascal)\TechnoSchool\TechnoSchool\obj\Debug\TechnoSchool.deletenscription.resources
+C:\Users\MULUH\Documents\Visual Studio 2015\Projects\TechnoSchool(Pascal)\TechnoSchool\TechnoSchool\obj\Debug\TechnoSchool.deletescolarite.resources
+C:\Users\MULUH\Documents\Visual Studio 2015\Projects\TechnoSchool(Pascal)\TechnoSchool\TechnoSchool\obj\Debug\TechnoSchool.detailBourse.resources
+C:\Users\MULUH\Documents\Visual Studio 2015\Projects\TechnoSchool(Pascal)\TechnoSchool\TechnoSchool\obj\Debug\TechnoSchool.detailEmployer.resources
+C:\Users\MULUH\Documents\Visual Studio 2015\Projects\TechnoSchool(Pascal)\TechnoSchool\TechnoSchool\obj\Debug\TechnoSchool.detailSchool.resources
+C:\Users\MULUH\Documents\Visual Studio 2015\Projects\TechnoSchool(Pascal)\TechnoSchool\TechnoSchool\obj\Debug\TechnoSchool.detailsClasse.resources
+C:\Users\MULUH\Documents\Visual Studio 2015\Projects\TechnoSchool(Pascal)\TechnoSchool\TechnoSchool\obj\Debug\TechnoSchool.detailsEleve.resources
+C:\Users\MULUH\Documents\Visual Studio 2015\Projects\TechnoSchool(Pascal)\TechnoSchool\TechnoSchool\obj\Debug\TechnoSchool.detailsPoste.resources
+C:\Users\MULUH\Documents\Visual Studio 2015\Projects\TechnoSchool(Pascal)\TechnoSchool\TechnoSchool\obj\Debug\TechnoSchool.detailsSession.resources
+C:\Users\MULUH\Documents\Visual Studio 2015\Projects\TechnoSchool(Pascal)\TechnoSchool\TechnoSchool\obj\Debug\TechnoSchool.EditBoursePrime.resources
+C:\Users\MULUH\Documents\Visual Studio 2015\Projects\TechnoSchool(Pascal)\TechnoSchool\TechnoSchool\obj\Debug\TechnoSchool.Editclasse.resources
+C:\Users\MULUH\Documents\Visual Studio 2015\Projects\TechnoSchool(Pascal)\TechnoSchool\TechnoSchool\obj\Debug\TechnoSchool.EditEleve.resources
+C:\Users\MULUH\Documents\Visual Studio 2015\Projects\TechnoSchool(Pascal)\TechnoSchool\TechnoSchool\obj\Debug\TechnoSchool.EditEmployer.resources
+C:\Users\MULUH\Documents\Visual Studio 2015\Projects\TechnoSchool(Pascal)\TechnoSchool\TechnoSchool\obj\Debug\TechnoSchool.EditInscription.resources
+C:\Users\MULUH\Documents\Visual Studio 2015\Projects\TechnoSchool(Pascal)\TechnoSchool\TechnoSchool\obj\Debug\TechnoSchool.EditPoste.resources
+C:\Users\MULUH\Documents\Visual Studio 2015\Projects\TechnoSchool(Pascal)\TechnoSchool\TechnoSchool\obj\Debug\TechnoSchool.EditSchool.resources
+C:\Users\MULUH\Documents\Visual Studio 2015\Projects\TechnoSchool(Pascal)\TechnoSchool\TechnoSchool\obj\Debug\TechnoSchool.Editscolarite.resources
+C:\Users\MULUH\Documents\Visual Studio 2015\Projects\TechnoSchool(Pascal)\TechnoSchool\TechnoSchool\obj\Debug\TechnoSchool.EditSection.resources
+C:\Users\MULUH\Documents\Visual Studio 2015\Projects\TechnoSchool(Pascal)\TechnoSchool\TechnoSchool\obj\Debug\TechnoSchool.EditSession.resources
+C:\Users\MULUH\Documents\Visual Studio 2015\Projects\TechnoSchool(Pascal)\TechnoSchool\TechnoSchool\obj\Debug\TechnoSchool.Index.resources
+C:\Users\MULUH\Documents\Visual Studio 2015\Projects\TechnoSchool(Pascal)\TechnoSchool\TechnoSchool\obj\Debug\TechnoSchool.formodifInscription.resources
+C:\Users\MULUH\Documents\Visual Studio 2015\Projects\TechnoSchool(Pascal)\TechnoSchool\TechnoSchool\obj\Debug\TechnoSchool.formodifscolarite.resources
+C:\Users\MULUH\Documents\Visual Studio 2015\Projects\TechnoSchool(Pascal)\TechnoSchool\TechnoSchool\obj\Debug\TechnoSchool.IMPRESSION_inscription.resources
+C:\Users\MULUH\Documents\Visual Studio 2015\Projects\TechnoSchool(Pascal)\TechnoSchool\TechnoSchool\obj\Debug\TechnoSchool.LicenceGestion.resources
+C:\Users\MULUH\Documents\Visual Studio 2015\Projects\TechnoSchool(Pascal)\TechnoSchool\TechnoSchool\obj\Debug\TechnoSchool.ListversementrPourecu.resources
+C:\Users\MULUH\Documents\Visual Studio 2015\Projects\TechnoSchool(Pascal)\TechnoSchool\TechnoSchool\obj\Debug\TechnoSchool.NEW_BOURSEPRIME.resources
+C:\Users\MULUH\Documents\Visual Studio 2015\Projects\TechnoSchool(Pascal)\TechnoSchool\TechnoSchool\obj\Debug\TechnoSchool.NEW_CLASSE.resources
+C:\Users\MULUH\Documents\Visual Studio 2015\Projects\TechnoSchool(Pascal)\TechnoSchool\TechnoSchool\obj\Debug\TechnoSchool.NEW_ELEVE.resources
+C:\Users\MULUH\Documents\Visual Studio 2015\Projects\TechnoSchool(Pascal)\TechnoSchool\TechnoSchool\obj\Debug\TechnoSchool.NEW_etablissements.resources
+C:\Users\MULUH\Documents\Visual Studio 2015\Projects\TechnoSchool(Pascal)\TechnoSchool\TechnoSchool\obj\Debug\TechnoSchool.NEW_FONCTION.resources
+C:\Users\MULUH\Documents\Visual Studio 2015\Projects\TechnoSchool(Pascal)\TechnoSchool\TechnoSchool\obj\Debug\TechnoSchool.AddInscription.resources
+C:\Users\MULUH\Documents\Visual Studio 2015\Projects\TechnoSchool(Pascal)\TechnoSchool\TechnoSchool\obj\Debug\TechnoSchool.NEW_INSCRIPTION.resources
+C:\Users\MULUH\Documents\Visual Studio 2015\Projects\TechnoSchool(Pascal)\TechnoSchool\TechnoSchool\obj\Debug\TechnoSchool.NEW_SCOLARITE.resources
+C:\Users\MULUH\Documents\Visual Studio 2015\Projects\TechnoSchool(Pascal)\TechnoSchool\TechnoSchool\obj\Debug\TechnoSchool.New_SECTION.resources
+C:\Users\MULUH\Documents\Visual Studio 2015\Projects\TechnoSchool(Pascal)\TechnoSchool\TechnoSchool\obj\Debug\TechnoSchool.NEW_USERS.resources
+C:\Users\MULUH\Documents\Visual Studio 2015\Projects\TechnoSchool(Pascal)\TechnoSchool\TechnoSchool\obj\Debug\TechnoSchool.Properties.Resources.resources
+C:\Users\MULUH\Documents\Visual Studio 2015\Projects\TechnoSchool(Pascal)\TechnoSchool\TechnoSchool\obj\Debug\TechnoSchool.RapportCarteScolaire.resources
+C:\Users\MULUH\Documents\Visual Studio 2015\Projects\TechnoSchool(Pascal)\TechnoSchool\TechnoSchool\obj\Debug\TechnoSchool.RapportDossierElevecs.resources
+C:\Users\MULUH\Documents\Visual Studio 2015\Projects\TechnoSchool(Pascal)\TechnoSchool\TechnoSchool\obj\Debug\TechnoSchool.RapportFicheRenvoi.resources
+C:\Users\MULUH\Documents\Visual Studio 2015\Projects\TechnoSchool(Pascal)\TechnoSchool\TechnoSchool\obj\Debug\TechnoSchool.RapportinscriptSection.resources
+C:\Users\MULUH\Documents\Visual Studio 2015\Projects\TechnoSchool(Pascal)\TechnoSchool\TechnoSchool\obj\Debug\TechnoSchool.RapportListClass.resources
+C:\Users\MULUH\Documents\Visual Studio 2015\Projects\TechnoSchool(Pascal)\TechnoSchool\TechnoSchool\obj\Debug\TechnoSchool.RapportListClasse.resources
+C:\Users\MULUH\Documents\Visual Studio 2015\Projects\TechnoSchool(Pascal)\TechnoSchool\TechnoSchool\obj\Debug\TechnoSchool.RapportListEleve.resources
+C:\Users\MULUH\Documents\Visual Studio 2015\Projects\TechnoSchool(Pascal)\TechnoSchool\TechnoSchool\obj\Debug\TechnoSchool.RapportListEleveInscript.resources
+C:\Users\MULUH\Documents\Visual Studio 2015\Projects\TechnoSchool(Pascal)\TechnoSchool\TechnoSchool\obj\Debug\TechnoSchool.RapportListingCaisse.resources
+C:\Users\MULUH\Documents\Visual Studio 2015\Projects\TechnoSchool(Pascal)\TechnoSchool\TechnoSchool\obj\Debug\TechnoSchool.RapportListSection.resources
+C:\Users\MULUH\Documents\Visual Studio 2015\Projects\TechnoSchool(Pascal)\TechnoSchool\TechnoSchool\obj\Debug\TechnoSchool.RapportRenvoiScolarite.resources
+C:\Users\MULUH\Documents\Visual Studio 2015\Projects\TechnoSchool(Pascal)\TechnoSchool\TechnoSchool\obj\Debug\TechnoSchool.RapportScolariteETInscriptionParClasse.resources
+C:\Users\MULUH\Documents\Visual Studio 2015\Projects\TechnoSchool(Pascal)\TechnoSchool\TechnoSchool\obj\Debug\TechnoSchool.RapportVersementParClaaseScolarite.resources
+C:\Users\MULUH\Documents\Visual Studio 2015\Projects\TechnoSchool(Pascal)\TechnoSchool\TechnoSchool\obj\Debug\TechnoSchool.RapportVersementParClasseInscription.resources
+C:\Users\MULUH\Documents\Visual Studio 2015\Projects\TechnoSchool(Pascal)\TechnoSchool\TechnoSchool\obj\Debug\TechnoSchool.Rapport_BourseETPrimes.resources
+C:\Users\MULUH\Documents\Visual Studio 2015\Projects\TechnoSchool(Pascal)\TechnoSchool\TechnoSchool\obj\Debug\TechnoSchool.RecuInscriptionStock.resources
+C:\Users\MULUH\Documents\Visual Studio 2015\Projects\TechnoSchool(Pascal)\TechnoSchool\TechnoSchool\obj\Debug\TechnoSchool.Listeversementrecuscolarite.resources
+C:\Users\MULUH\Documents\Visual Studio 2015\Projects\TechnoSchool(Pascal)\TechnoSchool\TechnoSchool\obj\Debug\TechnoSchool.RecuscolariteStock.resources
+C:\Users\MULUH\Documents\Visual Studio 2015\Projects\TechnoSchool(Pascal)\TechnoSchool\TechnoSchool\obj\Debug\TechnoSchool.RECU_SCOLARITE.resources
+C:\Users\MULUH\Documents\Visual Studio 2015\Projects\TechnoSchool(Pascal)\TechnoSchool\TechnoSchool\obj\Debug\TechnoSchool.csproj.GenerateResource.Cache
+C:\Users\MULUH\Documents\Visual Studio 2015\Projects\TechnoSchool(Pascal)\TechnoSchool\TechnoSchool\obj\Debug\TechnoSchool.csprojResolveAssemblyReference.cache

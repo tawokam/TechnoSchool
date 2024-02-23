@@ -1,0 +1,912 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{EEC0C42C-9CB5-4285-BBC8-5C0C06C9CDF6}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>TechnoSchool</RootNamespace>
+    <AssemblyName>TechnoSchool</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="FlashControlV71, Version=1.0.3187.32366, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="Google.ProtocolBuffers, Version=2.4.1.555, Culture=neutral, PublicKeyToken=55f7125234beb589" />
+    <Reference Include="MySql.Data, Version=7.0.2.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Configuration.Install" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Messaging" />
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include=".cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include=".Designer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddClasse.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddClasse.Designer.cs">
+      <DependentUpon>AddClasse.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddEleve.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddEleve.Designer.cs">
+      <DependentUpon>AddEleve.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Addemployer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Addemployer.Designer.cs">
+      <DependentUpon>Addemployer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddFonction.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddFonction.Designer.cs">
+      <DependentUpon>AddFonction.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddSchool.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddSchool.Designer.cs">
+      <DependentUpon>AddSchool.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Addscolarite.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Addscolarite.Designer.cs">
+      <DependentUpon>Addscolarite.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddSection.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddSection.Designer.cs">
+      <DependentUpon>AddSection.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Addsession.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Addsession.Designer.cs">
+      <DependentUpon>Addsession.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddsessionForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddsessionForm.Designer.cs">
+      <DependentUpon>AddsessionForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BourseETPrime.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BourseETPrime.Designer.cs">
+      <DependentUpon>BourseETPrime.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BourseETprime1.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BourseETprime.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CarteScolaire.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CarteScolaire.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ChoixElevePrDossier.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChoixElevePrDossier.Designer.cs">
+      <DependentUpon>ChoixElevePrDossier.cs</DependentUpon>
+    </Compile>
+    <Compile Include="configServer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="configServer.Designer.cs">
+      <DependentUpon>configServer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Connexion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Connexion.Designer.cs">
+      <DependentUpon>Connexion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataSetData.cs">
+      <DependentUpon>DataSetData.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSetData.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSetData.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="deletenscription.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="deletenscription.Designer.cs">
+      <DependentUpon>deletenscription.cs</DependentUpon>
+    </Compile>
+    <Compile Include="deletescolarite.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="deletescolarite.Designer.cs">
+      <DependentUpon>deletescolarite.cs</DependentUpon>
+    </Compile>
+    <Compile Include="detailBourse.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="detailBourse.Designer.cs">
+      <DependentUpon>detailBourse.cs</DependentUpon>
+    </Compile>
+    <Compile Include="detailEmployer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="detailEmployer.Designer.cs">
+      <DependentUpon>detailEmployer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="detailSchool.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="detailSchool.Designer.cs">
+      <DependentUpon>detailSchool.cs</DependentUpon>
+    </Compile>
+    <Compile Include="detailsClasse.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="detailsClasse.Designer.cs">
+      <DependentUpon>detailsClasse.cs</DependentUpon>
+    </Compile>
+    <Compile Include="detailsEleve.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="detailsEleve.Designer.cs">
+      <DependentUpon>detailsEleve.cs</DependentUpon>
+    </Compile>
+    <Compile Include="detailsPoste.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="detailsPoste.Designer.cs">
+      <DependentUpon>detailsPoste.cs</DependentUpon>
+    </Compile>
+    <Compile Include="detailsSession.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="detailsSession.Designer.cs">
+      <DependentUpon>detailsSession.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DossierEleve.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DossierEleve.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="EditBoursePrime.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditBoursePrime.Designer.cs">
+      <DependentUpon>EditBoursePrime.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Editclasse.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Editclasse.Designer.cs">
+      <DependentUpon>Editclasse.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditEleve.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditEleve.Designer.cs">
+      <DependentUpon>EditEleve.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditEmployer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditEmployer.Designer.cs">
+      <DependentUpon>EditEmployer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditInscription.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditInscription.Designer.cs">
+      <DependentUpon>EditInscription.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditPoste.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditPoste.Designer.cs">
+      <DependentUpon>EditPoste.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditSchool.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditSchool.Designer.cs">
+      <DependentUpon>EditSchool.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Editscolarite.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Editscolarite.Designer.cs">
+      <DependentUpon>Editscolarite.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditSection.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditSection.Designer.cs">
+      <DependentUpon>EditSection.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditSession.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditSession.Designer.cs">
+      <DependentUpon>EditSession.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formodifInscription.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formodifInscription.Designer.cs">
+      <DependentUpon>formodifInscription.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formodifscolarite.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formodifscolarite.Designer.cs">
+      <DependentUpon>formodifscolarite.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IMPRESSION_inscription.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IMPRESSION_inscription.Designer.cs">
+      <DependentUpon>IMPRESSION_inscription.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InscriptParClasse.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>InscriptParClasse.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="InscriptSection.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>InscriptSection.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="LicenceGestion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LicenceGestion.Designer.cs">
+      <DependentUpon>LicenceGestion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ListClasse.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ListClasse.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ListEleve.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ListEleve.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ListingCaisse.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ListingCaisse.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ListSection.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ListSection.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ListversementrPourecu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ListversementrPourecu.Designer.cs">
+      <DependentUpon>ListversementrPourecu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NEW_BOURSEPRIME.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NEW_BOURSEPRIME.Designer.cs">
+      <DependentUpon>NEW_BOURSEPRIME.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NEW_CLASSE.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NEW_CLASSE.Designer.cs">
+      <DependentUpon>NEW_CLASSE.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NEW_ELEVE.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NEW_ELEVE.Designer.cs">
+      <DependentUpon>NEW_ELEVE.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NEW_etablissements.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NEW_etablissements.Designer.cs">
+      <DependentUpon>NEW_etablissements.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NEW_FONCTION.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NEW_FONCTION.Designer.cs">
+      <DependentUpon>NEW_FONCTION.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddInscription.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddInscription.Designer.cs">
+      <DependentUpon>AddInscription.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NEW_INSCRIPTION.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NEW_INSCRIPTION.Designer.cs">
+      <DependentUpon>NEW_INSCRIPTION.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NEW_SCOLARITE.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NEW_SCOLARITE.Designer.cs">
+      <DependentUpon>NEW_SCOLARITE.cs</DependentUpon>
+    </Compile>
+    <Compile Include="New_SECTION.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="New_SECTION.Designer.cs">
+      <DependentUpon>New_SECTION.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NEW_USERS.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NEW_USERS.Designer.cs">
+      <DependentUpon>NEW_USERS.cs</DependentUpon>
+    </Compile>
+    <Compile Include="panelDegrader.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RapportCarteScolaire.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RapportCarteScolaire.Designer.cs">
+      <DependentUpon>RapportCarteScolaire.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RapportDossierElevecs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RapportDossierElevecs.Designer.cs">
+      <DependentUpon>RapportDossierElevecs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RapportFicheRenvoi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RapportFicheRenvoi.Designer.cs">
+      <DependentUpon>RapportFicheRenvoi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RapportinscriptSection.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RapportinscriptSection.Designer.cs">
+      <DependentUpon>RapportinscriptSection.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RapportInscriptSection1.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RapportInscriptSection.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RapportListClass.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RapportListClass.Designer.cs">
+      <DependentUpon>RapportListClass.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RapportListClasse.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RapportListClasse.Designer.cs">
+      <DependentUpon>RapportListClasse.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RapportListEleve.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RapportListEleve.Designer.cs">
+      <DependentUpon>RapportListEleve.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RapportListEleveInscript.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RapportListEleveInscript.Designer.cs">
+      <DependentUpon>RapportListEleveInscript.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RapportListingCaisse.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RapportListingCaisse.Designer.cs">
+      <DependentUpon>RapportListingCaisse.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RapportListinscript.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RapportListinscript.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RapportListSection.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RapportListSection.Designer.cs">
+      <DependentUpon>RapportListSection.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RapportRenvoiScolarite.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RapportRenvoiScolarite.Designer.cs">
+      <DependentUpon>RapportRenvoiScolarite.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RapportScolariteETInscriptionParClasse.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RapportScolariteETInscriptionParClasse.Designer.cs">
+      <DependentUpon>RapportScolariteETInscriptionParClasse.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RapportVersementParClaaseScolarite.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RapportVersementParClaaseScolarite.Designer.cs">
+      <DependentUpon>RapportVersementParClaaseScolarite.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RapportVersementParClasseInscription.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RapportVersementParClasseInscription.Designer.cs">
+      <DependentUpon>RapportVersementParClasseInscription.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Rapport_BourseETPrimes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Rapport_BourseETPrimes.Designer.cs">
+      <DependentUpon>Rapport_BourseETPrimes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RecuInscriptionStock.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RecuInscriptionStock.Designer.cs">
+      <DependentUpon>RecuInscriptionStock.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Listeversementrecuscolarite.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Listeversementrecuscolarite.Designer.cs">
+      <DependentUpon>Listeversementrecuscolarite.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RecuscolariteStock.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RecuscolariteStock.Designer.cs">
+      <DependentUpon>RecuscolariteStock.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RECU_SCOLARITE.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RECU_SCOLARITE.Designer.cs">
+      <DependentUpon>RECU_SCOLARITE.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RenvoiInscript.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RenvoiInscript.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RenvoiScolarite.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RenvoiScolarite.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ScolariteETInscriptionParClasse.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ScolariteETInscriptionParClasse.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="technosoftDataSet.cs">
+      <DependentUpon>technosoftDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="technosoftDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>technosoftDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="VersementParClasseInscription.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>VersementParClasseInscription.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="VersementParClasseScolarite.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>VersementParClasseScolarite.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <EmbeddedResource Include="AddClasse.resx">
+      <DependentUpon>AddClasse.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddEleve.resx">
+      <DependentUpon>AddEleve.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Addemployer.resx">
+      <DependentUpon>Addemployer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddFonction.resx">
+      <DependentUpon>AddFonction.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddSchool.resx">
+      <DependentUpon>AddSchool.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Addscolarite.resx">
+      <DependentUpon>Addscolarite.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddSection.resx">
+      <DependentUpon>AddSection.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Addsession.resx">
+      <DependentUpon>Addsession.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddsessionForm.resx">
+      <DependentUpon>AddsessionForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BourseETPrime.resx">
+      <DependentUpon>BourseETPrime.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BourseETprime.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>BourseETprime1.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CarteScolaire.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CarteScolaire.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ChoixElevePrDossier.resx">
+      <DependentUpon>ChoixElevePrDossier.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="configServer.resx">
+      <DependentUpon>configServer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Connexion.resx">
+      <DependentUpon>Connexion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="deletenscription.resx">
+      <DependentUpon>deletenscription.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="deletescolarite.resx">
+      <DependentUpon>deletescolarite.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="detailBourse.resx">
+      <DependentUpon>detailBourse.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="detailEmployer.resx">
+      <DependentUpon>detailEmployer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="detailSchool.resx">
+      <DependentUpon>detailSchool.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="detailsClasse.resx">
+      <DependentUpon>detailsClasse.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="detailsEleve.resx">
+      <DependentUpon>detailsEleve.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="detailsPoste.resx">
+      <DependentUpon>detailsPoste.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="detailsSession.resx">
+      <DependentUpon>detailsSession.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DossierEleve.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>DossierEleve.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditBoursePrime.resx">
+      <DependentUpon>EditBoursePrime.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Editclasse.resx">
+      <DependentUpon>Editclasse.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditEleve.resx">
+      <DependentUpon>EditEleve.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditEmployer.resx">
+      <DependentUpon>EditEmployer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditInscription.resx">
+      <DependentUpon>EditInscription.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditPoste.resx">
+      <DependentUpon>EditPoste.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditSchool.resx">
+      <DependentUpon>EditSchool.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Editscolarite.resx">
+      <DependentUpon>Editscolarite.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditSection.resx">
+      <DependentUpon>EditSection.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditSession.resx">
+      <DependentUpon>EditSession.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formodifInscription.resx">
+      <DependentUpon>formodifInscription.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formodifscolarite.resx">
+      <DependentUpon>formodifscolarite.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IMPRESSION_inscription.resx">
+      <DependentUpon>IMPRESSION_inscription.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InscriptParClasse.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>InscriptParClasse.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InscriptSection.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>InscriptSection.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LicenceGestion.resx">
+      <DependentUpon>LicenceGestion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ListClasse.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>ListClasse.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ListEleve.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>ListEleve.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ListingCaisse.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>ListingCaisse.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ListSection.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>ListSection.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ListversementrPourecu.resx">
+      <DependentUpon>ListversementrPourecu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NEW_BOURSEPRIME.resx">
+      <DependentUpon>NEW_BOURSEPRIME.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NEW_CLASSE.resx">
+      <DependentUpon>NEW_CLASSE.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NEW_ELEVE.resx">
+      <DependentUpon>NEW_ELEVE.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NEW_etablissements.resx">
+      <DependentUpon>NEW_etablissements.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NEW_FONCTION.resx">
+      <DependentUpon>NEW_FONCTION.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddInscription.resx">
+      <DependentUpon>AddInscription.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NEW_INSCRIPTION.resx">
+      <DependentUpon>NEW_INSCRIPTION.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NEW_SCOLARITE.resx">
+      <DependentUpon>NEW_SCOLARITE.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="New_SECTION.resx">
+      <DependentUpon>New_SECTION.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NEW_USERS.resx">
+      <DependentUpon>NEW_USERS.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="RapportCarteScolaire.resx">
+      <DependentUpon>RapportCarteScolaire.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RapportDossierElevecs.resx">
+      <DependentUpon>RapportDossierElevecs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RapportFicheRenvoi.resx">
+      <DependentUpon>RapportFicheRenvoi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RapportinscriptSection.resx">
+      <DependentUpon>RapportinscriptSection.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RapportInscriptSection.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>RapportInscriptSection1.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RapportListClass.resx">
+      <DependentUpon>RapportListClass.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RapportListClasse.resx">
+      <DependentUpon>RapportListClasse.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RapportListEleve.resx">
+      <DependentUpon>RapportListEleve.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RapportListEleveInscript.resx">
+      <DependentUpon>RapportListEleveInscript.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RapportListingCaisse.resx">
+      <DependentUpon>RapportListingCaisse.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RapportListinscript.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>RapportListinscript.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RapportListSection.resx">
+      <DependentUpon>RapportListSection.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RapportRenvoiScolarite.resx">
+      <DependentUpon>RapportRenvoiScolarite.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RapportScolariteETInscriptionParClasse.resx">
+      <DependentUpon>RapportScolariteETInscriptionParClasse.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RapportVersementParClaaseScolarite.resx">
+      <DependentUpon>RapportVersementParClaaseScolarite.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RapportVersementParClasseInscription.resx">
+      <DependentUpon>RapportVersementParClasseInscription.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Rapport_BourseETPrimes.resx">
+      <DependentUpon>Rapport_BourseETPrimes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RecuInscriptionStock.resx">
+      <DependentUpon>RecuInscriptionStock.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Listeversementrecuscolarite.resx">
+      <DependentUpon>Listeversementrecuscolarite.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RecuscolariteStock.resx">
+      <DependentUpon>RecuscolariteStock.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RECU_SCOLARITE.resx">
+      <DependentUpon>RECU_SCOLARITE.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RenvoiInscript.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>RenvoiInscript.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RenvoiScolarite.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>RenvoiScolarite.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ScolariteETInscriptionParClasse.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>ScolariteETInscriptionParClasse.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VersementParClasseInscription.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>VersementParClasseInscription.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VersementParClasseScolarite.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>VersementParClasseScolarite.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="DataSetData.xsc">
+      <DependentUpon>DataSetData.xsd</DependentUpon>
+    </None>
+    <None Include="DataSetData.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSetData.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSetData.xss">
+      <DependentUpon>DataSetData.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="technosoftDataSet.xsc">
+      <DependentUpon>technosoftDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="technosoftDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>technosoftDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="technosoftDataSet.xss">
+      <DependentUpon>technosoftDataSet.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="img\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

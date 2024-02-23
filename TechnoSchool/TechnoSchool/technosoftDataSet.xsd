@@ -1,0 +1,561 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="technosoftDataSet" targetNamespace="http://tempuri.org/technosoftDataSet.xsd" xmlns:mstns="http://tempuri.org/technosoftDataSet.xsd" xmlns="http://tempuri.org/technosoftDataSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="technosoftConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="technosoftConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.TechnoSchool.Properties.Settings.GlobalReference.Default.technosoftConnectionString" Provider="MySql.Data.MySqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="abonnementTableAdapter" GeneratorDataComponentClassName="abonnementTableAdapter" Name="abonnement" UserDataComponentName="abonnementTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="technosoftConnectionString (Settings)" DbObjectName="technosoft.abonnement" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT `id_abonne`, `tiers`, `typeabonne`, `montabonne` FROM `abonnement`</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="absenceTableAdapter" GeneratorDataComponentClassName="absenceTableAdapter" Name="absence" UserDataComponentName="absenceTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="technosoftConnectionString (Settings)" DbObjectName="technosoft.absence" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT `id_absence`, `heuredebut`, `heurefin`, `date_absence`, `matricule`, `id_classe`, `id_matiere`, `etat`, `session` FROM `absence`</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="caisseinscriptionTableAdapter" GeneratorDataComponentClassName="caisseinscriptionTableAdapter" Name="caisseinscription" UserDataComponentName="caisseinscriptionTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="technosoftConnectionString (Settings)" DbObjectName="technosoft.caisseinscription" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT `id_caisseinscript`, `montverse`, `dateverse`, `heureverse`, `matricule`, `nom_session` FROM `caisseinscription`</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="caissescolariteTableAdapter" GeneratorDataComponentClassName="caissescolariteTableAdapter" Name="caissescolarite" UserDataComponentName="caissescolariteTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="technosoftConnectionString (Settings)" DbObjectName="technosoft.caissescolarite" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT `id_caissescolarite`, `montverse`, `dateverse`, `heureverse`, `matricule`, `nom_session` FROM `caissescolarite`</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="classeTableAdapter" GeneratorDataComponentClassName="classeTableAdapter" Name="classe" UserDataComponentName="classeTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="technosoftConnectionString (Settings)" DbObjectName="technosoft.classe" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT `id_classe`, `nom_classe`, `montscolarite`, `montinscription`, `id_section`, `selecte` FROM `classe`</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="conseilTableAdapter" GeneratorDataComponentClassName="conseilTableAdapter" Name="conseil" UserDataComponentName="conseilTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="technosoftConnectionString (Settings)" DbObjectName="technosoft.conseil" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT `id_conseil`, `lieu`, `date_conseil`, `heure_conseil`, `session`, `numero` FROM `conseil`</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="decisiondisciplinaireTableAdapter" GeneratorDataComponentClassName="decisiondisciplinaireTableAdapter" Name="decisiondisciplinaire" UserDataComponentName="decisiondisciplinaireTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="technosoftConnectionString (Settings)" DbObjectName="technosoft.decisiondisciplinaire" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT `id_decision`, `id_conseil`, `matricule`, `sanction`, `nbrejour`, `debutsanction`, `finsanction` FROM `decisiondisciplinaire`</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="dureempruntTableAdapter" GeneratorDataComponentClassName="dureempruntTableAdapter" Name="dureemprunt" UserDataComponentName="dureempruntTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="technosoftConnectionString (Settings)" DbObjectName="technosoft.dureemprunt" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT `id_duree`, `duree_emprunt` FROM `dureemprunt`</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="elevesTableAdapter" GeneratorDataComponentClassName="elevesTableAdapter" Name="eleves" UserDataComponentName="elevesTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="technosoftConnectionString (Settings)" DbObjectName="technosoft.eleves" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT `id_eleve`, `nom_eleve`, `prenom_eleve`, `matricule`, `datenaiss_eleve`, `lieunaiss_eleve`, `dateentre_eleve`, `sexe_eleve`, `nationalite_eleve`, `adresse_eleve`, `maladie_eleve`, `apteeps`, `autreinfo_eleve`, `photo_eleve`, `nompere`, `telephonepere`, `nomere`, `telephonemere`, `nomtitteur`, `telephonetitteur`, `selecte` FROM `eleves`</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="employerTableAdapter" GeneratorDataComponentClassName="employerTableAdapter" Name="employer" UserDataComponentName="employerTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="technosoftConnectionString (Settings)" DbObjectName="technosoft.employer" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT `id_employer`, `nom_employer`, `telephone1_employer`, `telephone2_employer`, `sexe_employer`, `adresseMail_employer`, `quartier_employer`, `id_fonction`, `datenaiss_employer`, `travaildepuis`, `grandiplome`, `specialitediplome`, `cv_employer`, `photo_employer`, `numerourgence`, `salaireemployer`, `mdpemployer`, `selecte` FROM `employer`</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="etablissementTableAdapter" GeneratorDataComponentClassName="etablissementTableAdapter" Name="etablissement" UserDataComponentName="etablissementTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="technosoftConnectionString (Settings)" DbObjectName="technosoft.etablissement" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT `id_etablissement`, `nom_etabli`, `mail`, `localisation`, `bp`, `phone1`, `phone2`, `NIU`, `NRC`, `logo`, `Numom`, `nummm`, `date_creation`, `dernier_modification` FROM `etablissement`</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="etageresTableAdapter" GeneratorDataComponentClassName="etageresTableAdapter" Name="etageres" UserDataComponentName="etageresTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="technosoftConnectionString (Settings)" DbObjectName="technosoft.etageres" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT `id_etagere`, `nom_etagere` FROM `etageres`</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="evaluationTableAdapter" GeneratorDataComponentClassName="evaluationTableAdapter" Name="evaluation" UserDataComponentName="evaluationTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="technosoftConnectionString (Settings)" DbObjectName="technosoft.evaluation" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT `id_evaluation`, `matricule`, `id_classe`, `sequence`, `note`, `id_matiere`, `coef`, `dateenreg`, `session` FROM `evaluation`</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="fonctionTableAdapter" GeneratorDataComponentClassName="fonctionTableAdapter" Name="fonction" UserDataComponentName="fonctionTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="technosoftConnectionString (Settings)" DbObjectName="technosoft.fonction" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT `id_fonction`, `nom_fonction`, `inscription`, `scolarite`, `gest_enseignent`, `discipline_eleves`, `enseignement`, `autres` FROM `fonction`</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="inscriptionTableAdapter" GeneratorDataComponentClassName="inscriptionTableAdapter" Name="inscription" UserDataComponentName="inscriptionTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="technosoftConnectionString (Settings)" DbObjectName="technosoft.inscription" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT `id_inscript`, `matricule`, `id_section`, `id_classe`, `montinscription`, `montverseinscription`, `resteinscription`, `redouble`, `date_inscription`, `nom_session`, `etatinscription` FROM `inscription`</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="joursTableAdapter" GeneratorDataComponentClassName="joursTableAdapter" Name="jours" UserDataComponentName="joursTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="technosoftConnectionString (Settings)" DbObjectName="technosoft.jours" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT `id_jour`, `nom_jour` FROM `jours`</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="livresTableAdapter" GeneratorDataComponentClassName="livresTableAdapter" Name="livres" UserDataComponentName="livresTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="technosoftConnectionString (Settings)" DbObjectName="technosoft.livres" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT `id_livre`, `nom_livre`, `id_typelivre`, `id_etagere`, `nbrelivre`, `stock` FROM `livres`</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="matieresTableAdapter" GeneratorDataComponentClassName="matieresTableAdapter" Name="matieres" UserDataComponentName="matieresTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="technosoftConnectionString (Settings)" DbObjectName="technosoft.matieres" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT `id_matiere`, `nom_matiere`, `id_typmat`, `selecte` FROM `matieres`</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="periodeTableAdapter" GeneratorDataComponentClassName="periodeTableAdapter" Name="periode" UserDataComponentName="periodeTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="technosoftConnectionString (Settings)" DbObjectName="technosoft.periode" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT `id_periode`, `heuredebut`, `heurefin`, `typeperiode` FROM `periode`</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="pertelivreTableAdapter" GeneratorDataComponentClassName="pertelivreTableAdapter" Name="pertelivre" UserDataComponentName="pertelivreTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="technosoftConnectionString (Settings)" DbObjectName="technosoft.pertelivre" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT `id_pertelivre`, `date_perte`, `type_perte`, `quantite`, `message` FROM `pertelivre`</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="programmeTableAdapter" GeneratorDataComponentClassName="programmeTableAdapter" Name="programme" UserDataComponentName="programmeTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="technosoftConnectionString (Settings)" DbObjectName="technosoft.programme" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT `id_programme`, `id_classe`, `id_matiere`, `id_employer`, `jour`, `heuredebut`, `heurefin`, `payeheure`, `nom_session` FROM `programme`</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="scolariteTableAdapter" GeneratorDataComponentClassName="scolariteTableAdapter" Name="scolarite" UserDataComponentName="scolariteTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="technosoftConnectionString (Settings)" DbObjectName="technosoft.scolarite" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT `id_scolarite`, `montscolarite`, `montverse`, `restescolarite`, `matricule`, `nom_session`, `etatscolarite` FROM `scolarite`</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="tabsectionTableAdapter" GeneratorDataComponentClassName="tabsectionTableAdapter" Name="tabsection" UserDataComponentName="tabsectionTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="technosoftConnectionString (Settings)" DbObjectName="technosoft.tabsection" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT `id_section`, `nom_section`, `selecte` FROM `tabsection`</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="tabsessionTableAdapter" GeneratorDataComponentClassName="tabsessionTableAdapter" Name="tabsession" UserDataComponentName="tabsessionTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="technosoftConnectionString (Settings)" DbObjectName="technosoft.tabsession" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT `id_session`, `nom_session`, `selecte` FROM `tabsession`</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="traduitconseilTableAdapter" GeneratorDataComponentClassName="traduitconseilTableAdapter" Name="traduitconseil" UserDataComponentName="traduitconseilTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="technosoftConnectionString (Settings)" DbObjectName="technosoft.traduitconseil" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT `id_traduit`, `matricule`, `id_classe`, `id_conseil`, `motif`, `date_traduit`, `session` FROM `traduitconseil`</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="typelivreTableAdapter" GeneratorDataComponentClassName="typelivreTableAdapter" Name="typelivre" UserDataComponentName="typelivreTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="technosoftConnectionString (Settings)" DbObjectName="technosoft.typelivre" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT `id_typelivre`, `nom_typelivre` FROM `typelivre`</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="typematiereTableAdapter" GeneratorDataComponentClassName="typematiereTableAdapter" Name="typematiere" UserDataComponentName="typematiereTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="technosoftConnectionString (Settings)" DbObjectName="technosoft.typematiere" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT `id_typmat`, `nom_typmat`, `selecte` FROM `typematiere`</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="emploitempseleveTableAdapter" GeneratorDataComponentClassName="emploitempseleveTableAdapter" Name="emploitempseleve" UserDataComponentName="emploitempseleveTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="technosoftConnectionString (Settings)" DbObjectName="technosoft.emploitempseleve" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT `id_classe`, `id_matiere`, `id_employer`, `nom_session`, `heuredebut`, `heurefin`, `lundi`, `mardi`, `mercredi`, `jeudi`, `vendredi`, `samedi` FROM `technosoft`.`emploitempseleve`</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="emploitempsprofTableAdapter" GeneratorDataComponentClassName="emploitempsprofTableAdapter" Name="emploitempsprof" UserDataComponentName="emploitempsprofTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="technosoftConnectionString (Settings)" DbObjectName="technosoft.emploitempsprof" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT `id_employer`, `id_matiere`, `id_classe`, `nom_session`, `heuredebut`, `heurefin`, `lundi`, `mardi`, `mercredi`, `jeudi`, `vendredi`, `samedi` FROM `technosoft`.`emploitempsprof`</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="emploitempsprofsTableAdapter" GeneratorDataComponentClassName="emploitempsprofsTableAdapter" Name="emploitempsprofs" UserDataComponentName="emploitempsprofsTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="technosoftConnectionString (Settings)" DbObjectName="technosoft.emploitempsprofs" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT `id_matiere`, `id_employer`, `id_classe`, `nom_session`, `heuredebut`, `heurefin`, `lundi`, `matlundi`, `mardi`, `matmardi`, `mercredi`, `matmercredi`, `jeudi`, `matjeudi`, `vendredi`, `matvendredi`, `samedi`, `matsamedi` FROM `technosoft`.`emploitempsprofs`</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="technosoftDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="technosoftDataSet" msprop:Generator_UserDSName="technosoftDataSet">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="abonnement" msprop:Generator_TableClassName="abonnementDataTable" msprop:Generator_TableVarName="tableabonnement" msprop:Generator_TablePropName="abonnement" msprop:Generator_RowDeletingName="abonnementRowDeleting" msprop:Generator_RowChangingName="abonnementRowChanging" msprop:Generator_RowEvHandlerName="abonnementRowChangeEventHandler" msprop:Generator_RowDeletedName="abonnementRowDeleted" msprop:Generator_UserTableName="abonnement" msprop:Generator_RowChangedName="abonnementRowChanged" msprop:Generator_RowEvArgName="abonnementRowChangeEvent" msprop:Generator_RowClassName="abonnementRow">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="absence" msprop:Generator_TableClassName="absenceDataTable" msprop:Generator_TableVarName="tableabsence" msprop:Generator_TablePropName="absence" msprop:Generator_RowDeletingName="absenceRowDeleting" msprop:Generator_RowChangingName="absenceRowChanging" msprop:Generator_RowEvHandlerName="absenceRowChangeEventHandler" msprop:Generator_RowDeletedName="absenceRowDeleted" msprop:Generator_UserTableName="absence" msprop:Generator_RowChangedName="absenceRowChanged" msprop:Generator_RowEvArgName="absenceRowChangeEvent" msprop:Generator_RowClassName="absenceRow">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="caisseinscription" msprop:Generator_TableClassName="caisseinscriptionDataTable" msprop:Generator_TableVarName="tablecaisseinscription" msprop:Generator_TablePropName="caisseinscription" msprop:Generator_RowDeletingName="caisseinscriptionRowDeleting" msprop:Generator_RowChangingName="caisseinscriptionRowChanging" msprop:Generator_RowEvHandlerName="caisseinscriptionRowChangeEventHandler" msprop:Generator_RowDeletedName="caisseinscriptionRowDeleted" msprop:Generator_UserTableName="caisseinscription" msprop:Generator_RowChangedName="caisseinscriptionRowChanged" msprop:Generator_RowEvArgName="caisseinscriptionRowChangeEvent" msprop:Generator_RowClassName="caisseinscriptionRow">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="caissescolarite" msprop:Generator_TableClassName="caissescolariteDataTable" msprop:Generator_TableVarName="tablecaissescolarite" msprop:Generator_TablePropName="caissescolarite" msprop:Generator_RowDeletingName="caissescolariteRowDeleting" msprop:Generator_RowChangingName="caissescolariteRowChanging" msprop:Generator_RowEvHandlerName="caissescolariteRowChangeEventHandler" msprop:Generator_RowDeletedName="caissescolariteRowDeleted" msprop:Generator_UserTableName="caissescolarite" msprop:Generator_RowChangedName="caissescolariteRowChanged" msprop:Generator_RowEvArgName="caissescolariteRowChangeEvent" msprop:Generator_RowClassName="caissescolariteRow">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="classe" msprop:Generator_TableClassName="classeDataTable" msprop:Generator_TableVarName="tableclasse" msprop:Generator_TablePropName="classe" msprop:Generator_RowDeletingName="classeRowDeleting" msprop:Generator_RowChangingName="classeRowChanging" msprop:Generator_RowEvHandlerName="classeRowChangeEventHandler" msprop:Generator_RowDeletedName="classeRowDeleted" msprop:Generator_UserTableName="classe" msprop:Generator_RowChangedName="classeRowChanged" msprop:Generator_RowEvArgName="classeRowChangeEvent" msprop:Generator_RowClassName="classeRow">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="conseil" msprop:Generator_TableClassName="conseilDataTable" msprop:Generator_TableVarName="tableconseil" msprop:Generator_TablePropName="conseil" msprop:Generator_RowDeletingName="conseilRowDeleting" msprop:Generator_RowChangingName="conseilRowChanging" msprop:Generator_RowEvHandlerName="conseilRowChangeEventHandler" msprop:Generator_RowDeletedName="conseilRowDeleted" msprop:Generator_UserTableName="conseil" msprop:Generator_RowChangedName="conseilRowChanged" msprop:Generator_RowEvArgName="conseilRowChangeEvent" msprop:Generator_RowClassName="conseilRow">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="decisiondisciplinaire" msprop:Generator_TableClassName="decisiondisciplinaireDataTable" msprop:Generator_TableVarName="tabledecisiondisciplinaire" msprop:Generator_TablePropName="decisiondisciplinaire" msprop:Generator_RowDeletingName="decisiondisciplinaireRowDeleting" msprop:Generator_RowChangingName="decisiondisciplinaireRowChanging" msprop:Generator_RowEvHandlerName="decisiondisciplinaireRowChangeEventHandler" msprop:Generator_RowDeletedName="decisiondisciplinaireRowDeleted" msprop:Generator_UserTableName="decisiondisciplinaire" msprop:Generator_RowChangedName="decisiondisciplinaireRowChanged" msprop:Generator_RowEvArgName="decisiondisciplinaireRowChangeEvent" msprop:Generator_RowClassName="decisiondisciplinaireRow">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="dureemprunt" msprop:Generator_TableClassName="dureempruntDataTable" msprop:Generator_TableVarName="tabledureemprunt" msprop:Generator_TablePropName="dureemprunt" msprop:Generator_RowDeletingName="dureempruntRowDeleting" msprop:Generator_RowChangingName="dureempruntRowChanging" msprop:Generator_RowEvHandlerName="dureempruntRowChangeEventHandler" msprop:Generator_RowDeletedName="dureempruntRowDeleted" msprop:Generator_UserTableName="dureemprunt" msprop:Generator_RowChangedName="dureempruntRowChanged" msprop:Generator_RowEvArgName="dureempruntRowChangeEvent" msprop:Generator_RowClassName="dureempruntRow">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="eleves" msprop:Generator_TableClassName="elevesDataTable" msprop:Generator_TableVarName="tableeleves" msprop:Generator_TablePropName="eleves" msprop:Generator_RowDeletingName="elevesRowDeleting" msprop:Generator_RowChangingName="elevesRowChanging" msprop:Generator_RowEvHandlerName="elevesRowChangeEventHandler" msprop:Generator_RowDeletedName="elevesRowDeleted" msprop:Generator_UserTableName="eleves" msprop:Generator_RowChangedName="elevesRowChanged" msprop:Generator_RowEvArgName="elevesRowChangeEvent" msprop:Generator_RowClassName="elevesRow">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="employer" msprop:Generator_TableClassName="employerDataTable" msprop:Generator_TableVarName="tableemployer" msprop:Generator_TablePropName="employer" msprop:Generator_RowDeletingName="employerRowDeleting" msprop:Generator_RowChangingName="employerRowChanging" msprop:Generator_RowEvHandlerName="employerRowChangeEventHandler" msprop:Generator_RowDeletedName="employerRowDeleted" msprop:Generator_UserTableName="employer" msprop:Generator_RowChangedName="employerRowChanged" msprop:Generator_RowEvArgName="employerRowChangeEvent" msprop:Generator_RowClassName="employerRow">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="etablissement" msprop:Generator_TableClassName="etablissementDataTable" msprop:Generator_TableVarName="tableetablissement" msprop:Generator_TablePropName="etablissement" msprop:Generator_RowDeletingName="etablissementRowDeleting" msprop:Generator_RowChangingName="etablissementRowChanging" msprop:Generator_RowEvHandlerName="etablissementRowChangeEventHandler" msprop:Generator_RowDeletedName="etablissementRowDeleted" msprop:Generator_UserTableName="etablissement" msprop:Generator_RowChangedName="etablissementRowChanged" msprop:Generator_RowEvArgName="etablissementRowChangeEvent" msprop:Generator_RowClassName="etablissementRow">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="etageres" msprop:Generator_TableClassName="etageresDataTable" msprop:Generator_TableVarName="tableetageres" msprop:Generator_TablePropName="etageres" msprop:Generator_RowDeletingName="etageresRowDeleting" msprop:Generator_RowChangingName="etageresRowChanging" msprop:Generator_RowEvHandlerName="etageresRowChangeEventHandler" msprop:Generator_RowDeletedName="etageresRowDeleted" msprop:Generator_UserTableName="etageres" msprop:Generator_RowChangedName="etageresRowChanged" msprop:Generator_RowEvArgName="etageresRowChangeEvent" msprop:Generator_RowClassName="etageresRow">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="evaluation" msprop:Generator_TableClassName="evaluationDataTable" msprop:Generator_TableVarName="tableevaluation" msprop:Generator_TablePropName="evaluation" msprop:Generator_RowDeletingName="evaluationRowDeleting" msprop:Generator_RowChangingName="evaluationRowChanging" msprop:Generator_RowEvHandlerName="evaluationRowChangeEventHandler" msprop:Generator_RowDeletedName="evaluationRowDeleted" msprop:Generator_UserTableName="evaluation" msprop:Generator_RowChangedName="evaluationRowChanged" msprop:Generator_RowEvArgName="evaluationRowChangeEvent" msprop:Generator_RowClassName="evaluationRow">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="fonction" msprop:Generator_TableClassName="fonctionDataTable" msprop:Generator_TableVarName="tablefonction" msprop:Generator_TablePropName="fonction" msprop:Generator_RowDeletingName="fonctionRowDeleting" msprop:Generator_RowChangingName="fonctionRowChanging" msprop:Generator_RowEvHandlerName="fonctionRowChangeEventHandler" msprop:Generator_RowDeletedName="fonctionRowDeleted" msprop:Generator_UserTableName="fonction" msprop:Generator_RowChangedName="fonctionRowChanged" msprop:Generator_RowEvArgName="fonctionRowChangeEvent" msprop:Generator_RowClassName="fonctionRow">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="inscription" msprop:Generator_TableClassName="inscriptionDataTable" msprop:Generator_TableVarName="tableinscription" msprop:Generator_TablePropName="inscription" msprop:Generator_RowDeletingName="inscriptionRowDeleting" msprop:Generator_RowChangingName="inscriptionRowChanging" msprop:Generator_RowEvHandlerName="inscriptionRowChangeEventHandler" msprop:Generator_RowDeletedName="inscriptionRowDeleted" msprop:Generator_UserTableName="inscription" msprop:Generator_RowChangedName="inscriptionRowChanged" msprop:Generator_RowEvArgName="inscriptionRowChangeEvent" msprop:Generator_RowClassName="inscriptionRow">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="jours" msprop:Generator_TableClassName="joursDataTable" msprop:Generator_TableVarName="tablejours" msprop:Generator_TablePropName="jours" msprop:Generator_RowDeletingName="joursRowDeleting" msprop:Generator_RowChangingName="joursRowChanging" msprop:Generator_RowEvHandlerName="joursRowChangeEventHandler" msprop:Generator_RowDeletedName="joursRowDeleted" msprop:Generator_UserTableName="jours" msprop:Generator_RowChangedName="joursRowChanged" msprop:Generator_RowEvArgName="joursRowChangeEvent" msprop:Generator_RowClassName="joursRow">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="livres" msprop:Generator_TableClassName="livresDataTable" msprop:Generator_TableVarName="tablelivres" msprop:Generator_TablePropName="livres" msprop:Generator_RowDeletingName="livresRowDeleting" msprop:Generator_RowChangingName="livresRowChanging" msprop:Generator_RowEvHandlerName="livresRowChangeEventHandler" msprop:Generator_RowDeletedName="livresRowDeleted" msprop:Generator_UserTableName="livres" msprop:Generator_RowChangedName="livresRowChanged" msprop:Generator_RowEvArgName="livresRowChangeEvent" msprop:Generator_RowClassName="livresRow">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="matieres" msprop:Generator_TableClassName="matieresDataTable" msprop:Generator_TableVarName="tablematieres" msprop:Generator_TablePropName="matieres" msprop:Generator_RowDeletingName="matieresRowDeleting" msprop:Generator_RowChangingName="matieresRowChanging" msprop:Generator_RowEvHandlerName="matieresRowChangeEventHandler" msprop:Generator_RowDeletedName="matieresRowDeleted" msprop:Generator_UserTableName="matieres" msprop:Generator_RowChangedName="matieresRowChanged" msprop:Generator_RowEvArgName="matieresRowChangeEvent" msprop:Generator_RowClassName="matieresRow">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="periode" msprop:Generator_TableClassName="periodeDataTable" msprop:Generator_TableVarName="tableperiode" msprop:Generator_TablePropName="periode" msprop:Generator_RowDeletingName="periodeRowDeleting" msprop:Generator_RowChangingName="periodeRowChanging" msprop:Generator_RowEvHandlerName="periodeRowChangeEventHandler" msprop:Generator_RowDeletedName="periodeRowDeleted" msprop:Generator_UserTableName="periode" msprop:Generator_RowChangedName="periodeRowChanged" msprop:Generator_RowEvArgName="periodeRowChangeEvent" msprop:Generator_RowClassName="periodeRow">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="pertelivre" msprop:Generator_TableClassName="pertelivreDataTable" msprop:Generator_TableVarName="tablepertelivre" msprop:Generator_TablePropName="pertelivre" msprop:Generator_RowDeletingName="pertelivreRowDeleting" msprop:Generator_RowChangingName="pertelivreRowChanging" msprop:Generator_RowEvHandlerName="pertelivreRowChangeEventHandler" msprop:Generator_RowDeletedName="pertelivreRowDeleted" msprop:Generator_UserTableName="pertelivre" msprop:Generator_RowChangedName="pertelivreRowChanged" msprop:Generator_RowEvArgName="pertelivreRowChangeEvent" msprop:Generator_RowClassName="pertelivreRow">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="programme" msprop:Generator_TableClassName="programmeDataTable" msprop:Generator_TableVarName="tableprogramme" msprop:Generator_TablePropName="programme" msprop:Generator_RowDeletingName="programmeRowDeleting" msprop:Generator_RowChangingName="programmeRowChanging" msprop:Generator_RowEvHandlerName="programmeRowChangeEventHandler" msprop:Generator_RowDeletedName="programmeRowDeleted" msprop:Generator_UserTableName="programme" msprop:Generator_RowChangedName="programmeRowChanged" msprop:Generator_RowEvArgName="programmeRowChangeEvent" msprop:Generator_RowClassName="programmeRow">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="scolarite" msprop:Generator_TableClassName="scolariteDataTable" msprop:Generator_TableVarName="tablescolarite" msprop:Generator_TablePropName="scolarite" msprop:Generator_RowDeletingName="scolariteRowDeleting" msprop:Generator_RowChangingName="scolariteRowChanging" msprop:Generator_RowEvHandlerName="scolariteRowChangeEventHandler" msprop:Generator_RowDeletedName="scolariteRowDeleted" msprop:Generator_UserTableName="scolarite" msprop:Generator_RowChangedName="scolariteRowChanged" msprop:Generator_RowEvArgName="scolariteRowChangeEvent" msprop:Generator_RowClassName="scolariteRow">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="tabsection" msprop:Generator_TableClassName="tabsectionDataTable" msprop:Generator_TableVarName="tabletabsection" msprop:Generator_TablePropName="tabsection" msprop:Generator_RowDeletingName="tabsectionRowDeleting" msprop:Generator_RowChangingName="tabsectionRowChanging" msprop:Generator_RowEvHandlerName="tabsectionRowChangeEventHandler" msprop:Generator_RowDeletedName="tabsectionRowDeleted" msprop:Generator_UserTableName="tabsection" msprop:Generator_RowChangedName="tabsectionRowChanged" msprop:Generator_RowEvArgName="tabsectionRowChangeEvent" msprop:Generator_RowClassName="tabsectionRow">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="tabsession" msprop:Generator_TableClassName="tabsessionDataTable" msprop:Generator_TableVarName="tabletabsession" msprop:Generator_TablePropName="tabsession" msprop:Generator_RowDeletingName="tabsessionRowDeleting" msprop:Generator_RowChangingName="tabsessionRowChanging" msprop:Generator_RowEvHandlerName="tabsessionRowChangeEventHandler" msprop:Generator_RowDeletedName="tabsessionRowDeleted" msprop:Generator_UserTableName="tabsession" msprop:Generator_RowChangedName="tabsessionRowChanged" msprop:Generator_RowEvArgName="tabsessionRowChangeEvent" msprop:Generator_RowClassName="tabsessionRow">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="traduitconseil" msprop:Generator_TableClassName="traduitconseilDataTable" msprop:Generator_TableVarName="tabletraduitconseil" msprop:Generator_TablePropName="traduitconseil" msprop:Generator_RowDeletingName="traduitconseilRowDeleting" msprop:Generator_RowChangingName="traduitconseilRowChanging" msprop:Generator_RowEvHandlerName="traduitconseilRowChangeEventHandler" msprop:Generator_RowDeletedName="traduitconseilRowDeleted" msprop:Generator_UserTableName="traduitconseil" msprop:Generator_RowChangedName="traduitconseilRowChanged" msprop:Generator_RowEvArgName="traduitconseilRowChangeEvent" msprop:Generator_RowClassName="traduitconseilRow">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="typelivre" msprop:Generator_TableClassName="typelivreDataTable" msprop:Generator_TableVarName="tabletypelivre" msprop:Generator_TablePropName="typelivre" msprop:Generator_RowDeletingName="typelivreRowDeleting" msprop:Generator_RowChangingName="typelivreRowChanging" msprop:Generator_RowEvHandlerName="typelivreRowChangeEventHandler" msprop:Generator_RowDeletedName="typelivreRowDeleted" msprop:Generator_UserTableName="typelivre" msprop:Generator_RowChangedName="typelivreRowChanged" msprop:Generator_RowEvArgName="typelivreRowChangeEvent" msprop:Generator_RowClassName="typelivreRow">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="typematiere" msprop:Generator_TableClassName="typematiereDataTable" msprop:Generator_TableVarName="tabletypematiere" msprop:Generator_TablePropName="typematiere" msprop:Generator_RowDeletingName="typematiereRowDeleting" msprop:Generator_RowChangingName="typematiereRowChanging" msprop:Generator_RowEvHandlerName="typematiereRowChangeEventHandler" msprop:Generator_RowDeletedName="typematiereRowDeleted" msprop:Generator_UserTableName="typematiere" msprop:Generator_RowChangedName="typematiereRowChanged" msprop:Generator_RowEvArgName="typematiereRowChangeEvent" msprop:Generator_RowClassName="typematiereRow">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="emploitempseleve" msprop:Generator_TableClassName="emploitempseleveDataTable" msprop:Generator_TableVarName="tableemploitempseleve" msprop:Generator_TablePropName="emploitempseleve" msprop:Generator_RowDeletingName="emploitempseleveRowDeleting" msprop:Generator_RowChangingName="emploitempseleveRowChanging" msprop:Generator_RowEvHandlerName="emploitempseleveRowChangeEventHandler" msprop:Generator_RowDeletedName="emploitempseleveRowDeleted" msprop:Generator_UserTableName="emploitempseleve" msprop:Generator_RowChangedName="emploitempseleveRowChanged" msprop:Generator_RowEvArgName="emploitempseleveRowChangeEvent" msprop:Generator_RowClassName="emploitempseleveRow">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="emploitempsprof" msprop:Generator_TableClassName="emploitempsprofDataTable" msprop:Generator_TableVarName="tableemploitempsprof" msprop:Generator_TablePropName="emploitempsprof" msprop:Generator_RowDeletingName="emploitempsprofRowDeleting" msprop:Generator_RowChangingName="emploitempsprofRowChanging" msprop:Generator_RowEvHandlerName="emploitempsprofRowChangeEventHandler" msprop:Generator_RowDeletedName="emploitempsprofRowDeleted" msprop:Generator_UserTableName="emploitempsprof" msprop:Generator_RowChangedName="emploitempsprofRowChanged" msprop:Generator_RowEvArgName="emploitempsprofRowChangeEvent" msprop:Generator_RowClassName="emploitempsprofRow">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="emploitempsprofs" msprop:Generator_TableClassName="emploitempsprofsDataTable" msprop:Generator_TableVarName="tableemploitempsprofs" msprop:Generator_TablePropName="emploitempsprofs" msprop:Generator_RowDeletingName="emploitempsprofsRowDeleting" msprop:Generator_RowChangingName="emploitempsprofsRowChanging" msprop:Generator_RowEvHandlerName="emploitempsprofsRowChangeEventHandler" msprop:Generator_RowDeletedName="emploitempsprofsRowDeleted" msprop:Generator_UserTableName="emploitempsprofs" msprop:Generator_RowChangedName="emploitempsprofsRowChanged" msprop:Generator_RowEvArgName="emploitempsprofsRowChangeEvent" msprop:Generator_RowClassName="emploitempsprofsRow">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
